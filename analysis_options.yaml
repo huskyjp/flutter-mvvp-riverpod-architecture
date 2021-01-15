@@ -1,0 +1,12 @@
+include: package:effective_dart/analysis_options.yaml
+analyzer:
+  exclude:
+    - "lib/generated_plugin_registrant.dart"
+    - "lib/l10n/messages_*.dart"
+    - "lib/data/model/*.g.dart"
+    - "lib/data/model/*.freezed.dart"
+
+linter:
+  rules:
+    public_member_api_docs: false
+    prefer_const_constructors: true
